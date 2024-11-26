@@ -1,0 +1,58 @@
+<script src="6HW.js">
+
+</script>
+
+<html>
+    
+  <style>
+    body{
+        background-image: url("bg.png");
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+    }
+
+  </style>
+
+  <body bgcolor="black">
+    
+    <center>
+        
+        <img src="logo.png" width="10%" height="15%">
+        <font face="Serif" color="#0014a8"><h1><b><i><u></u>WELCOME TO DOMINO'S</i></b></h1></font>
+    
+    </center>
+
+    <center>
+        <font face="Serif" color="#0014a8"><h3>SELECT YOUR PIZZA FROM BELOW BUTTON</h3><br></font>
+        <b><select id="piz" size="5"></b>
+            <option>-MENU-</option>
+            <option value="340">MARGHERITA</option>
+            <option value="500">SPICY DELIGHT</option>
+            <option value="400">5 PEPEERS</option>
+            <option value="290">COUNTRY SPECIAL</option>
+            <option value="560">FARM HOUSE</option>
+            <option value="555">PEPPY PANEER</option>
+        </select><br><br>
+
+        <select id="topings" size="5">
+            <option value="0">select extra topings</option>
+            <option value="50">EXTRA CHEESE</option>
+            <option value="100">TRIPLE CHEESE</option>
+            <option value="60">EXTRA MUSHROOMS</option>
+            <option value="90">EXTRA OLIVES</option>
+            <option value="150">MAKE IT SPECIAL</option>
+            <option value="0">NO TOPINGS</option>
+            
+        </select><br><br>
+
+        <input type="radio" name="discount" id="fi" value="10"/>10% DISCOUNT
+        <input type="radio" name="discount" id="se" value="15"/>15% DISCOUNT
+        <input type="radio" name="discount" id="th" value="20"/>20% DISCOUNT
+
+        <br><br><input type="button" value="PLACE ORDER" onclick="call()"/><br><br>
+        
+        <div id="result"></div><br><br>
+    </font>
+    </center>
+  </body >
+</html>
